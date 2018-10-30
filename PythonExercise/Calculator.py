@@ -3,4 +3,6 @@
 class Calculator():
 
     def is_power_of_two(self, number):
-        return True
+        if number == 2:
+            return True
+        return False
