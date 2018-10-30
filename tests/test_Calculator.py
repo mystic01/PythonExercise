@@ -15,3 +15,6 @@ class test_Calculator(unittest.TestCase):
 
     def test_is_power_of_two__Input_4_Return_True(self):
         self.assertTrue(self.calculator.is_power_of_two(4))
+
+    def test_is_power_of_two__Input_0_Return_False(self):
+        self.assertFalse(self.calculator.is_power_of_two(0))
